@@ -61,6 +61,7 @@ What I enjoy most:
 
 | Project | What it is | Stack |
 |:--------|:-----------|:------|
+| **[banking-system](https://github.com/Lleonsnow/banking-system)** | Double-entry ledger banking: transfers, USD/EUR exchange, JWT dashboard | NestJS, TypeORM, React, PostgreSQL |
 | **[GraphCraft-Vision](https://github.com/Lleonsnow/GraphCraft-Vision)** | Visual node-based platform (monorepo: web + API) | TypeScript, NestJS, Docker |
 | **[TraceDock](https://github.com/Lleonsnow/TraceDock)** | Observability platform — auth, ingest, analytics, alerts, UI | Microservices, TypeScript |
 | **[Pchelka](https://github.com/Lleonsnow/Pchelka)** | Telegram shop: bot + Django API + Next.js Mini App | Aiogram, Django, Next.js, PostgreSQL |
