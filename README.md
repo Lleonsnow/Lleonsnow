@@ -18,6 +18,7 @@ APIs · integrations · Telegram products · Dockerized platforms
 
 I ship **working products end-to-end** — not just tickets.
 
+- **E-commerce & catalogs:** shops, carts, orders, promo, admin, payments-ready flows
 - **Backend first:** REST APIs, domain models, auth, integrations, background jobs
 - **Full product loop:** idea → architecture → code → Docker → release → fixes
 - **Multi-service setups:** bot + API + webapp + admin on one data model
@@ -28,20 +29,31 @@ I ship **working products end-to-end** — not just tickets.
 
 ### Flagship projects
 
-#### [Pchelka](https://github.com/Lleonsnow/Pchelka) — Telegram shop platform
+#### E-commerce & commerce platforms
+
+#### [Pchelka](https://github.com/Lleonsnow/Pchelka) — Telegram shop
 **Aiogram 3 · Django / DRF · Next.js Mini App · PostgreSQL · Nginx · Docker**
 
 Full commerce loop inside Telegram: catalog, cart, orders, FAQ, bot + WebApp on **one PostgreSQL** as source of truth. REST for Mini App, async SQL for bot, admin notifications back to chat.
 
-#### [banking-system](https://github.com/Lleonsnow/banking-system) — Double-entry ledger
-**NestJS · TypeORM · React · PostgreSQL · Docker · JWT**
+#### [GranitShop](https://github.com/Lleonsnow/GranitShop) — Stone / granite store
+**Laravel · Vue · Docker**
 
-Transfers, USD/EUR exchange and a real ledger for money integrity. API + dashboard, migrations/seed, Swagger, unit tests.
+Classic e-commerce: catalog, product cards, cart/order flow and admin on Laravel + Vue.
 
 #### [Couponator](https://github.com/Lleonsnow/Couponator) — Coupons / promo platform
 **Next.js monorepo · PostgreSQL · Docker · Nginx**
 
 Merchants, promo flows, feed sync, auth and production-oriented compose setup.
+
+**Production store:** [laque-shop.ru](https://laque-shop.ru) — cosmetics e-commerce (Next.js + NestJS/Prisma + PostgreSQL, Docker on VPS, migration from legacy WordPress/MySQL).
+
+#### Other flagship work
+
+#### [banking-system](https://github.com/Lleonsnow/banking-system) — Double-entry ledger
+**NestJS · TypeORM · React · PostgreSQL · Docker · JWT**
+
+Transfers, USD/EUR exchange and a real ledger for money integrity. API + dashboard, migrations/seed, Swagger, unit tests.
 
 #### [file-exchange-task](https://github.com/Lleonsnow/file-exchange-task) — File pipeline backend
 **FastAPI · Celery · Redis · PostgreSQL · Next.js · Docker**
@@ -67,7 +79,6 @@ Node-based product architecture: web + API in one repo.
 | **[Pchelka-CRM](https://github.com/Lleonsnow/Pchelka-CRM)** | CRM companion for the shop ecosystem | NestJS, TypeScript, Docker |
 | **[girl](https://github.com/Lleonsnow/girl)** | Personal site + CMS | Nuxt 3, Django, PostgreSQL |
 | **[Trendsee](https://github.com/Lleonsnow/Trendsee)** | Content platform with JWT auth | FastAPI, Vue 3, Redis, PostgreSQL |
-| **[GranitShop](https://github.com/Lleonsnow/GranitShop)** | E-commerce for stone / granite | Laravel, Vue, Docker |
 | **[table_task](https://github.com/Lleonsnow/table_task)** | 1M-row UI: filters, DnD, infinite scroll | Next.js, Express, Docker |
 
 <details>
