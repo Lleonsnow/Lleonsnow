@@ -2,26 +2,85 @@
 
 <img src="./header.svg" alt="Hello! I'm Leon — Backend / Full-stack developer" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-stack+Developer;Laravel+%E2%80%A2+Vue+%E2%80%A2+TypeScript;APIs%2C+bots+%26+product+platforms)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Backend+%2F+Full-stack+Developer;Python+%C2%B7+Node.js+%C2%B7+PHP;Ship+products+end-to-end)](https://git.io/typing-svg)
 
-building web apps, APIs, Telegram products and Dockerized platforms
+APIs · integrations · Telegram products · Dockerized platforms
 
 [![GitHub followers](https://img.shields.io/github/followers/Lleonsnow?style=for-the-badge&logo=github&color=238636)](https://github.com/Lleonsnow)
-[![Repos](https://img.shields.io/badge/Focus-Backend_%2B_Product-1f6feb?style=for-the-badge)](https://github.com/Lleonsnow)
-[![Stack](https://img.shields.io/badge/Stack-Laravel_·_Vue_·_TS-0d1117?style=for-the-badge)](https://github.com/Lleonsnow)
+[![Focus](https://img.shields.io/badge/Focus-Backend_%2B_Product-1f6feb?style=for-the-badge)](https://github.com/Lleonsnow)
+[![Stack](https://img.shields.io/badge/Stack-Python_·_Nest_·_Laravel_·_TS-0d1117?style=for-the-badge)](https://github.com/Lleonsnow)
 
 </div>
 
 ---
 
-### About me
+### Strengths
 
-I design and ship **full-stack products end-to-end**: backend services, REST APIs, admin panels, Vue/Next frontends and Telegram bots — usually packed into **Docker Compose** for local and production use.
+I ship **working products end-to-end** — not just tickets.
 
-What I enjoy most:
-- clean domain models and reliable APIs
-- monorepos / multi-service architectures
-- turning business flows into working products (shops, CRM, content, coupons)
+- **Backend first:** REST APIs, domain models, auth, integrations, background jobs
+- **Full product loop:** idea → architecture → code → Docker → release → fixes
+- **Multi-service setups:** bot + API + webapp + admin on one data model
+- **Production habits:** migrations, idempotency, reviews, tests, observability basics
+- **Stack range:** Python (Django / FastAPI), Node (NestJS), PHP (Laravel), TypeScript frontends
+
+---
+
+### Flagship projects
+
+#### [Pchelka](https://github.com/Lleonsnow/Pchelka) — Telegram shop platform
+**Aiogram 3 · Django / DRF · Next.js Mini App · PostgreSQL · Nginx · Docker**
+
+Full commerce loop inside Telegram: catalog, cart, orders, FAQ, bot + WebApp on **one PostgreSQL** as source of truth. REST for Mini App, async SQL for bot, admin notifications back to chat.
+
+#### [banking-system](https://github.com/Lleonsnow/banking-system) — Double-entry ledger
+**NestJS · TypeORM · React · PostgreSQL · Docker · JWT**
+
+Transfers, USD/EUR exchange and a real ledger for money integrity. API + dashboard, migrations/seed, Swagger, unit tests.
+
+#### [Couponator](https://github.com/Lleonsnow/Couponator) — Coupons / promo platform
+**Next.js monorepo · PostgreSQL · Docker · Nginx**
+
+Merchants, promo flows, feed sync, auth and production-oriented compose setup.
+
+#### [file-exchange-task](https://github.com/Lleonsnow/file-exchange-task) — File pipeline backend
+**FastAPI · Celery · Redis · PostgreSQL · Next.js · Docker**
+
+Layered API (`api → services → repositories`), one Celery worker pipeline, alerts, pagination, pytest/mypy/ruff, Flower + Locust.
+
+#### [TraceDock](https://github.com/Lleonsnow/TraceDock) — Observability platform
+**TypeScript · microservices · auth · ingest · alerts · UI**
+
+Ingest, analytics and alerting surface — auth through operational UI.
+
+#### [GraphCraft-Vision](https://github.com/Lleonsnow/GraphCraft-Vision) — Visual node platform
+**TypeScript · NestJS · Docker · monorepo**
+
+Node-based product architecture: web + API in one repo.
+
+---
+
+### More projects
+
+| Project | What it is | Stack |
+|:--------|:-----------|:------|
+| **[Pchelka-CRM](https://github.com/Lleonsnow/Pchelka-CRM)** | CRM companion for the shop ecosystem | NestJS, TypeScript, Docker |
+| **[girl](https://github.com/Lleonsnow/girl)** | Personal site + CMS | Nuxt 3, Django, PostgreSQL |
+| **[Trendsee](https://github.com/Lleonsnow/Trendsee)** | Content platform with JWT auth | FastAPI, Vue 3, Redis, PostgreSQL |
+| **[GranitShop](https://github.com/Lleonsnow/GranitShop)** | E-commerce for stone / granite | Laravel, Vue, Docker |
+| **[table_task](https://github.com/Lleonsnow/table_task)** | 1M-row UI: filters, DnD, infinite scroll | Next.js, Express, Docker |
+
+<details>
+<summary><b>Smaller / older</b></summary>
+
+- **[Habit_bot](https://github.com/Lleonsnow/Habit_bot.github.io)** — habit tracking Telegram bot
+- **[beauty_bot](https://github.com/Lleonsnow/beauty_bot)** — Telegram bot for beauty / booking
+- **[twitter_clone](https://github.com/Lleonsnow/twitter_clone)** — microblogging API (Docker, Swagger, Sentry)
+- **[api_links](https://github.com/Lleonsnow/api_links)** — short links service
+- **[Sinchronizer_v.01](https://github.com/Lleonsnow/Sinchronizer_v.01)** — local ↔ Yandex Disk sync
+- Commercial orgs: **[UGK-Granite](https://github.com/UGK-Granite)**, **[nollo-ru](https://github.com/nollo-ru)**
+
+</details>
 
 ---
 
@@ -29,60 +88,32 @@ What I enjoy most:
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,vue,ts,js,nodejs,nestjs,nextjs,python,django,fastapi,postgres,redis,docker,nginx,git&perline=8" alt="Tech stack" />
+    <img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,nestjs,ts,php,laravel,nextjs,vue,postgres,redis,docker,nginx,git&perline=8" alt="Tech stack" />
   </a>
 </p>
 
-**Core**
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**Backend & APIs**
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+**Backend**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Aiogram](https://img.shields.io/badge/Aiogram-Telegram_Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 
-**Data & Infra**
+**Frontend**  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+
+**Data & infra**  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### Featured projects
-
-| Project | What it is | Stack |
-|:--------|:-----------|:------|
-| **[banking-system](https://github.com/Lleonsnow/banking-system)** | Double-entry ledger banking: transfers, USD/EUR exchange, JWT dashboard | NestJS, TypeORM, React, PostgreSQL |
-| **[GraphCraft-Vision](https://github.com/Lleonsnow/GraphCraft-Vision)** | Visual node-based platform (monorepo: web + API) | TypeScript, NestJS, Docker |
-| **[TraceDock](https://github.com/Lleonsnow/TraceDock)** | Observability platform — auth, ingest, analytics, alerts, UI | Microservices, TypeScript |
-| **[Pchelka](https://github.com/Lleonsnow/Pchelka)** | Telegram shop: bot + Django API + Next.js Mini App | Aiogram, Django, Next.js, PostgreSQL |
-| **[Pchelka-CRM](https://github.com/Lleonsnow/Pchelka-CRM)** | CRM companion for the shop ecosystem | NestJS, TypeScript, Docker |
-| **[Couponator](https://github.com/Lleonsnow/Couponator)** | Coupon / promo platform with merchants & feed sync | Next.js, PostgreSQL, Docker |
-| **[girl](https://github.com/Lleonsnow/girl)** | Personal site + CMS: Nuxt frontend, Django admin | Nuxt 3, Django, PostgreSQL |
-| **[Trendsee](https://github.com/Lleonsnow/Trendsee)** | Content platform with JWT auth | FastAPI, Vue 3, Redis, PostgreSQL |
-| **[table_task](https://github.com/Lleonsnow/table_task)** | UI challenge: 1M items, filters, DnD sort, infinite scroll | Next.js, Express, Docker |
-| **[GranitShop](https://github.com/Lleonsnow/GranitShop)** | E-commerce for stone / granite products | Laravel, Vue, Docker |
-
-<details>
-<summary><b>More projects</b></summary>
-
-- **[Habit_bot](https://github.com/Lleonsnow/Habit_bot.github.io)** — habit tracking Telegram bot  
-- **[beauty_bot](https://github.com/Lleonsnow/beauty_bot)** — Telegram bot for beauty / booking flows  
-- **[twitter_clone](https://github.com/Lleonsnow/twitter_clone)** — microblogging API (Docker, Swagger, Sentry)  
-- **[api_links](https://github.com/Lleonsnow/api_links)** — short links service  
-- **[Sinchronizer_v.01](https://github.com/Lleonsnow/Sinchronizer_v.01)** — local ↔ Yandex Disk sync  
-- Commercial work with **[UGK-Granite](https://github.com/UGK-Granite)** and **[nollo-ru](https://github.com/nollo-ru)**
-
-</details>
 
 ---
 
@@ -111,8 +142,9 @@ What I enjoy most:
 
 <div align="center">
 
-### Open to interesting backend / full-stack work
+### Open to backend / full-stack roles
 
-Building products with **Laravel · Vue · TypeScript · Docker** — feel free to explore the repos above.
+Python · Node/Nest · Laravel · TypeScript · Docker  
+Telegram [@Le47on](https://t.me/Le47on)
 
 </div>
