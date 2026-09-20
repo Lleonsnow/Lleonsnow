@@ -46,7 +46,7 @@ Classic e-commerce: catalog, product cards, cart/order flow and admin on Laravel
 
 Merchants, promo flows, feed sync, auth and production-oriented compose setup.
 
-**Production store:** [laque-shop.ru](https://laque-shop.ru) — cosmetics e-commerce (Next.js + NestJS/Prisma + PostgreSQL, Docker on VPS, migration from legacy WordPress/MySQL).
+**Production store:** cosmetics e-commerce (Next.js + NestJS/Prisma + PostgreSQL, Docker on VPS, migration from legacy WordPress/MySQL).
 
 #### Other flagship work
 
@@ -65,10 +65,10 @@ Layered API (`api → services → repositories`), one Celery worker pipeline, a
 
 Ingest, analytics and alerting surface — auth through operational UI.
 
-#### [GraphCraft-Vision](https://github.com/Lleonsnow/GraphCraft-Vision) — Visual node platform
+#### [nodefy.pro](https://nodefy.pro) — Existing visual node platform
 **TypeScript · NestJS · Docker · monorepo**
 
-Node-based product architecture: web + API in one repo.
+Live node-based product: web + API in one repo.
 
 ---
 
