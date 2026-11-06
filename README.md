@@ -5,7 +5,7 @@
 **Backend-leaning full-stack developer, in commercial development since 2021**  
 TypeScript · NestJS · Python · PostgreSQL · Docker
 
-[Portfolio](https://leonsnow.is-a.dev) · [Telegram](https://t.me/Le47on)
+[Portfolio](https://leonsnow.is-a.dev) · [Telegram](https://t.me/snow_leonx)
 
 </div>
 
@@ -77,6 +77,6 @@ NestJS, BullMQ, socket.io and Prisma monorepo. Secrets encrypted with AES-256-GC
   <img alt="GitHub contribution snake" src="./icons/github-snake.svg" />
 </picture>
 
-**Open to backend / full-stack roles** · [Telegram @Le47on](https://t.me/Le47on)
+**Open to backend / full-stack roles** · Telegram: [Leon](https://t.me/snow_leonx)
 
 </div>
